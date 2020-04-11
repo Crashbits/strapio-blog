@@ -1,0 +1,1 @@
+#A blog created using strapi for the backend and react for the front end 
