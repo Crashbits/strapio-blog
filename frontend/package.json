@@ -3,13 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^3.1.4",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "apollo-boost": "^0.4.7",
+    "babel-plugin-macros": "^2.8.0",
+    "graphql": "^15.0.0",
+    "moment": "^2.24.0",
     "react": "^16.13.1",
+    "react-apollo": "^3.1.4",
     "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-moment": "^0.9.7",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "tailwindcss": "^1.2.0",
+    "twin.macro": "^1.0.0-alpha.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "src/tailwind.config.js"
+    }
   }
 }
